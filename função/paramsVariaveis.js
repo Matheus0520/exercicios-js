@@ -13,4 +13,4 @@ console.log(soma(1.1, 2.2, 3.3))
 console.log(soma(1.1, 2.2, "Teste"))
 console.log(soma('a', 'b', 'c'))
 
-// Teste 1
+// Teste 2
