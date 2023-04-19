@@ -1,2 +1,2 @@
-# exercicios-js
+# Aprendizado
  Aulas online
