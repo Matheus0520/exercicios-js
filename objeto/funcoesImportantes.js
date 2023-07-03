@@ -8,7 +8,7 @@ console.log(Object.keys(pessoa)) // chave
 console.log(Object.values(pessoa)) // valor
 console.log(Object.entries(pessoa)) // entradas
 
-Object.entries(pessoa).forEach(([chave, valor]) => { 
+Object.entries(pessoa).forEach(([chave, valor]) => { // faz a separação de chave e valor por cada elemento da string
     console.log(`${chave}: ${valor}`)
 })
 
@@ -26,7 +26,7 @@ console.log(Object.keys(pessoa))
 const dest = { a: 1 }
 const o1 =  { b: 2 }
 const o2 = { c: 3, a: 4 }
-const obj = Object.assign(dest, o1, o2 )
+const obj = Object.assign(dest, o1, o2 ) // pega o primeiro objeto a assimila todos os outros a ele, até se tiver uma nova informação
 
 Object.freeze(obj)
 obj.c = 1234
